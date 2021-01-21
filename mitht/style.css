@@ -1,0 +1,47 @@
+.navbar{
+  background-color: purple;
+}
+
+.navbar .navbar-brand {
+  color: #FFF;
+}
+
+.row > div {
+  background: white;
+  border: 1px solid grey;
+}
+
+html, body {
+  height: 100%;
+}
+
+.full-height {
+  height: 100%;
+}
+
+<div class="full-height"></div>
+
+.container {
+  height: 200px;
+  position: relative;
+  border: 3px solid green;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.papa {
+  margin: 0;
+  position: absolute;
+  background-color: white;
+  top: 25%;
+  left: 25%;
+  right: 25%;
+  bottom: 25%;
+}
